@@ -10,7 +10,8 @@ python 3.6.4
 * BeautifulSoup
 * mysql-connector
 
-安装命令：
+### 安装命令：
+
 **1.安装BeautifulSoup4**
 
 ```
@@ -29,26 +30,27 @@ $ pip3 install mysql-connector
 $ pip3 install lxml
 ```
 
-进入工程目录
+**4.进入工程目录**
 
 ```
 $ cd python_bbs
 ```
 
-修改mysql数据库配置[main.py]第17行中用户名和密码
+**5.修改mysql数据库配置[main.py]第17行中用户名和密码**
 
 ```
 conn = mysql.connector.connect(user='root', password='root', database='bbs')
 ```
 
-把data.sql导入到mysql数据库
+**6.把data.sql导入到mysql数据库**
 
 ```
 use bbs;
 source data.sql;
 ```
 
-运行启动脚本tieba.py立即开始抓取数据并存储到mysql中
+**7.运行启动脚本tieba.py立即开始抓取数据并存储到mysql中**
+
 ```
 python3 main.py
 ```
