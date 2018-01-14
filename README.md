@@ -50,5 +50,5 @@ source data.sql;
 
 运行启动脚本tieba.py立即开始抓取数据并存储到mysql中
 ```
-python3 tieba.py
+python3 main.py
 ```
